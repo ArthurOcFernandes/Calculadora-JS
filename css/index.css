@@ -69,8 +69,23 @@ body{
     vertical-align: middle;
 }
 
+.botoes-tabela td:hover{
+    cursor: pointer;
+}
+
+.botoes-tabela td:active{
+    cursor: grabbing;
+    background-color: #e68b22; 
+}
+
 .botoes-tabela td p {
     color: white;
     text-align: center;
     font-size: 3rem;
 }
+
+a{
+    font-style: none;
+    text-decoration: none;
+}
+
